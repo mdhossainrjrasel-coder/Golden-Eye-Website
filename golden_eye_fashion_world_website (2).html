@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Eye Fashion World</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #111, #333);
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        nav {
+            background: #000;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #d4af37;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: #fff;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #111;
+            border-bottom: 2px solid #d4af37;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .highlight {
+            color: #d4af37;
+            font-weight: bold;
+        }
+        .info-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .box {
+            background: #fafafa;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            height: 220px;
+            object-fit: cover;
+        }
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: #fff;
+            padding: 15px 18px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 18px;
+            font-size: 14px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Golden Eye Fashion World</h1>
+    <p>স্টাইল ও বিশ্বাসের ঠিকানা | Your Trusted Fashion Destination</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#business">Business Info</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="home" class="section">
+        <h2>Welcome</h2>
+        <p>স্বাগতম <span class="highlight">Golden Eye Fashion World</span> এ। এখানে পাবেন মানসম্মত ফ্যাশন পণ্য, সাশ্রয়ী দামে এবং বিশ্বস্ত সার্ভিস।</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p><strong>Golden Eye Fashion World</strong> একটি আধুনিক ফ্যাশন শপ যেখানে পুরুষ, মহিলা ও তরুণদের জন্য স্টাইলিশ পোশাক পাওয়া যায়। আমাদের প্রধান লক্ষ্য কাস্টমার সন্তুষ্টি।</p>
+    </section>
+
+    <section id="products" class="section">
+        <h2>Product Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53" alt="Fashion 1">
+            <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38" alt="Fashion 2">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Fashion 3">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Fashion 4">
+        </div>
+        <p style="margin-top:10px;">👉 এগুলো sample ছবি। চাইলে তোমার নিজের product ছবি বসানো যাবে।</p>
+    </section>
+
+    <section id="business" class="section">
+        <h2>Business Details</h2>
+        <div class="info-box">
+            <div class="box">
+                <h3>Business Name</h3>
+                <p>Golden Eye Fashion World</p>
+            </div>
+            <div class="box">
+                <h3>Opening Hours</h3>
+                <p>প্রতিদিন <strong>১৬ ঘণ্টা খোলা</strong></p>
+            </div>
+            <div class="box">
+                <h3>Location</h3>
+                <p>Sonamia Market<br>Shop No: 43<br>Adamjee Nagar, Narayanganj</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact & Location</h2>
+        <p><strong>📞 Phone:</strong> 01402398940</p>
+        <p><strong>📍 Address:</strong> Sonamia Market, Shop No 43, Adamjee Nagar, Narayanganj</p>
+        <iframe src="https://www.google.com/maps?q=Sonamia+Market+Adamjee+Nagar+Narayanganj&output=embed"></iframe>
+    </section>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/8801402398940" target="_blank">💬 WhatsApp</a>
+
+<footer>
+    <p>&copy; 2025 Golden Eye Fashion World | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
